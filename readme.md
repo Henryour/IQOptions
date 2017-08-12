@@ -15,13 +15,13 @@
 ## API
 Добавление массива чисел в очередь кролика
 
-```POST /api/push-number
-@param int[] numbers```
+```POST /api/push-number```
+```@param int[] numbers```
 
 Добавление числа в очередь
 
-```GET /api/push-number/{number}
-@param int number```
+```GET /api/push-number/{number}```
+```@param int number```
 
 ## Unit testing
 ```Tests\Unit\PushNumbersTest```
